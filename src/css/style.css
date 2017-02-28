@@ -1,0 +1,121 @@
+
+.background{
+    -fx-background-color: #282828;
+    -fx-font-weight: bold;
+
+}
+
+.views{
+    -fx-fill: #666666;
+    -fx-border-color: #666666;
+    -fx-border-width: 2px;
+}
+
+.red{
+    -fx-base: #ff041a;
+    -fx-text-fill: #ff041a;
+}
+
+.green{
+    -fx-base: #3eff0b;
+    -fx-text-fill: #3eff0b;
+}
+
+.blue{
+    -fx-base: #196cff;
+    -fx-text-fill: #196cff;
+}
+
+.alpha{
+    -fx-base: #ffffff;
+    -fx-text-fill: #ffffff;
+}
+
+#a_slider> .thumb   {
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.2), 5, 0.0 , 0, 0);
+}
+
+#a_slider> .track   {
+    -fx-background-color:  #ffffff;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 3;
+}
+
+
+#r_slider> .thumb   {
+    -fx-background-color:  #ff041a;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.2), 5, 0.0 , 0, 0);
+}
+
+#r_slider> .track   {
+    -fx-background-color:  #ff041a;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 3;
+}
+
+#g_slider> .thumb   {
+    -fx-background-color: #3eff0b;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.2), 5, 0.0 , 0, 0);
+}
+
+#g_slider> .track   {
+    -fx-background-color:  #3eff0b;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 3;
+}
+
+#b_slider> .thumb   {
+    -fx-background-color: #196cff;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.2), 5, 0.0 , 0, 0);
+
+}
+
+#b_slider> .track   {
+    -fx-background-color:  #196cff;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 3;
+}
+
+
+.thumb:hover {
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.4), 5, 0.0 , 0, 0);
+}
+.track {
+    -fx-background-color: #dad9da, white;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 2;
+}
+
+.button {
+    -fx-background-color: #666666, transparent;
+    -fx-background-insets: -1, 0, 1;
+    -fx-pref-height: 2;
+    -fx-text-fill: #dad9da;
+}
+
+.window-style {
+    -fx-background-color: #666666;
+}
+
+.window-text{
+    -fx-text-fill: white;
+}
+
+.close-button {
+    -fx-text-fill: white;
+}
+
+.close-button:hover {
+    -fx-background-color: #828282;
+    -fx-text-fill: white;
+}
+
+.close-button:pressed {
+    -fx-background-color: #aaaaaa;
+    -fx-text-fill: white;
+}
